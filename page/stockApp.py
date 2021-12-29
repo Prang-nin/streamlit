@@ -11,6 +11,9 @@ def app():
     ## Commodity Stock Price UP TO DATE
     📉📊💸💰
     """)
+    st.write('1. Choose the commodity type and the starting time of stock history observation')
+    st.write('2. Commodity stock price data will downloaded from Yahoo! Finance using yfinance API')
+    st.write('3. Click "Show plot" to plot the graph of the selected data')
     comName = ('GC=F', 'SI=F','CL=F')
     selectedCom = st.selectbox('Select commodity type',comName)
     st.caption('GC=F : Gold , SI=F : Silver , CL=F : Crude oil')
