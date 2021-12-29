@@ -9,12 +9,14 @@ from streamlit_pandas_profiling import st_profile_report
 def app():
     st.markdown('''
     ## ** The Pandas profiling APP **
-    ### An overall assessment tool of a primary data.🌏
+    ### An overall assessment tool for data observation.🌏
     ---
     ''')
     st.markdown(''' ** Pandas Profiling ** is one of many methods that fast and effective way to help you 
     get the overview of your raw data before working on Data pre-processing. 📌''')
-        
+    st.write(' 1.Drag and Drop your data in csv format or use our sample data.')
+    st.write(' 2.The data.csv file will be shown as INPUT DATA.')
+    st.write(' 3.The report will display data set info and variables types of each attributes.')
 
     # The Upload CSV file function will be located on left side bar
     with st.sidebar.header(' Upload your CSV file'):
