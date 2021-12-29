@@ -1,4 +1,3 @@
-
 import os
 import streamlit as st
 import numpy as np
@@ -11,10 +10,10 @@ from page import home, dataProfiling, stockApp
 app = multipage()
 
 # create main page title
-st.title("MulTi-APPs PRoJeCT")
+st.title("Multi-APPs Project")
 
 # add all page
-app.addPage("About me", home.app)
+app.addPage("Home page", home.app)
 app.addPage("Data Profilling", dataProfiling.app)
 app.addPage("Observe stock market", stockApp.app)
 
