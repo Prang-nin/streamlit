@@ -4,7 +4,7 @@ import numpy as np
 
 # custom modules
 from multipage import multipage
-from page import home, dataProfiling, stockApp, ,classification
+from page import home, dataProfiling, stockApp, classification
 
 # create an instance for multipage class
 app = multipage()
